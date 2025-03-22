@@ -24,14 +24,14 @@ function App() {
       <p>JOKES:{jokes.length}</p>
 
       {
-        jokes.map((jokes,index)=>{
+        jokes.map((jokes,index)=>(
           <div key={jokes.id}>
             <h3>{jokes.title}+
 
             </h3>
 
           </div>
-        })
+        ))
       }
     </>
   )
